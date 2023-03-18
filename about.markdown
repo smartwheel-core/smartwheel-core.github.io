@@ -13,3 +13,9 @@ Smartwheel is written in Python/PyQt6, so it could be easily modded with custom 
 ## We need your help!
 
 I've started working on this project a while ago, but it turned out that it's too big: it won't be possible to finish it without your help. However, it's much easier to implement features one-by-one: you only need basic Python3 (and sometimes PyQt6) knowledge. If you believe in this project and want to contribute, please DM me. Even small fixes, ideas or suggestions are very important.
+
+## Documentation
+
+Docs are still in WIP, so there may not be all examples
+
+[Link to readthedocs](https://smartwheel-core.readthedocs.io/en/latest/)
