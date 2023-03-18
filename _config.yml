@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Powerful keyboard knob/encoder controller with a ton of features
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/enaix/smartwheel-core" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username:  enaix
+
+github_username: enaix
 
 # Build settings
 theme: minima

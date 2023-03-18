@@ -9,7 +9,7 @@ from perlin_numpy import (
 
 class controurGen():
     def __init__(self):
-        self.conf = {"backgroundColor": "#ffffff", "seed": 1328, "randomSeed": False, "width": 1920, "height": 1080, "wheelTextureColor": "#aaaaaa", "scale": 10}
+        self.conf = {"backgroundColor": "#ffffff", "seed": 24572, "randomSeed": False, "width": 1920, "height": 1080, "wheelTextureColor": "#cccccc", "scale": 10}
         
     def genContour(self):
         if self.conf["randomSeed"]:
@@ -58,7 +58,7 @@ class controurGen():
         z = generate_perlin_noise_2d((256, 256), (4, 4))
 
         # Plotting the contour plot
-        plt.contour(x, y, z, colors=self.conf["wheelTextureColor"], linewidths=20, levels=10)
+        plt.contour(x, y, z, colors=self.conf["wheelTextureColor"], linewidths=40, levels=10)
 
         # Adding details to the plot
         plt.title("sin(x) + cos(10+y*x)")

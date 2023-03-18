@@ -2,8 +2,45 @@
  * Site header
  */
 body {
-    background-image: url('/assets/img/bg.svg');
-    background-size: 100%;
+    background-image: url('/assets/img/bg_contour.svg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.logo-img {
+    margin-bottom: 5px;
+}
+
+.row {
+    width: 100%;
+}
+
+.banner {
+    float: left;
+}
+
+.banner-text {
+    vertical-align: middle;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.banner-text-wrapper {
+    @media screen and (min-width: $on-medium) {
+        position: relative;
+        top: 50%;
+        transform: translateY(calc(50% - (width/2)));
+    }
+}
+
+.col-5 {
+    width: 50%;
+    float: left;
+
+    @media screen and (max-width: $on-medium) {
+        width: 100%;
+        float: none;
+    }
 }
 
 .wrapper {
@@ -11,13 +48,14 @@ body {
 }
 
 .site-header {
-    border-top: 5px solid $border-color-03;
+    //border-top: 5px solid width$border-color-03;
     border-bottom: 1px solid $border-color-01;
     min-height: $spacing-unit * 1.865;
     line-height: $base-line-height * $base-font-size * 2.25;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    
     background-color: white;
 }
 
@@ -28,6 +66,8 @@ body {
     margin-bottom: 0;
     float: left;
     color: white;
+    position: relative;
+    left: -15px;
 
     @include media-query($on-palm) {
         padding-right: 45px;
@@ -37,17 +77,6 @@ body {
     &:visited {
         color: $site-title-color;
     }
-}
-
-.title-s1 {
-    background-color: black;
-    color: white;
-}
-
-.title-s3 {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
 }
 
 .site-nav {
@@ -98,15 +127,29 @@ body {
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        display: block;
+        display: inline;
         padding: 5px 10px;
+        font-size: 1.7rem;
+        vertical-align: middle;
+        font-family: $exta-font-family;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 0;
         }
 
+        background: linear-gradient(#000000, #000000) no-repeat;
+        background-size: 0px 100%;
+        
+
         margin-left: 20px;
+        transition: .3s;
+        text-decoration: none;
+    }
+
+    .page-link:hover {
+        background-size: 100% 100%;
+        color: white;
     }
 
     @media screen and (min-width: $on-medium) {
@@ -148,6 +191,7 @@ body {
 .site-footer {
     border-top: 1px solid $border-color-01;
     padding: $spacing-unit 0;
+    background-color: white;
 }
 
 .footer-heading {
@@ -225,7 +269,7 @@ body {
    * Page content
    */
 .page-content {
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit;
     flex: 1 0 auto;
 }
 

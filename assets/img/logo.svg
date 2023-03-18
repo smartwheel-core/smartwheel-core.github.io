@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="130.96875mm"
+   height="19.84375mm"
+   viewBox="0 0 130.96875 19.84375"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.4941854"
+     inkscape:cx="213.49656"
+     inkscape:cy="47.710968"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid231"
+       snapvisiblegridlinesonly="true"
+       color="#000000"
+       opacity="0.14901961"
+       empcolor="#000000"
+       empopacity="0.30196078"
+       originx="-6.6145832"
+       originy="-15.875" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="42.604"
+       y="71.312958"
+       width="716.38043"
+       height="119.30965"
+       id="rect113" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Box"
+     transform="translate(-6.6145832,-15.875)">
+    <rect
+       id="rect339"
+       width="31.749983"
+       height="11.939677"
+       x="101.86459"
+       y="19.84375"
+       style="display:none;stroke-width:0.161836" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.318749,29.36875 c 0,5.291666 0,5.291666 0,5.291666"
+       id="path532" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.6729166,32.014583 c 5.2916664,0 5.2916664,0 5.2916664,0"
+       id="path534" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.318749,22.225 c 0,-5.291666 0,-5.291666 0,-5.291666"
+       id="path536" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.6729163,19.579167 c 5.2916667,0 5.2916667,0 5.2916667,0"
+       id="path538" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 133.87916,29.36875 c 0,5.291666 0,5.291666 0,5.291666"
+       id="path540" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.525,32.014583 c -5.29167,0 -5.29167,0 -5.29167,0"
+       id="path542" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408249;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.525,19.579167 c -5.29167,0 -5.29167,0 -5.29167,0"
+       id="path544" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.408248;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 133.87916,16.933334 c 0,5.291666 0,5.291666 0,5.291666"
+       id="path546" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.6145832,-15.875)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-0.07148516,-0.58009697)"
+       id="text111"
+       style="font-style:normal;font-weight:normal;font-size:53.3333px;line-height:0;font-family:sans-serif;white-space:pre;shape-inside:url(#rect113);display:inline;fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="42.603516"
+         y="117.97914"
+         id="tspan5952"><tspan
+           style="font-weight:bold;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro Bold'"
+           id="tspan5944">SMARTWHEE</tspan><tspan
+           dx="6"
+           style="letter-spacing:-6px"
+           id="tspan5946">L</tspan><tspan
+           dx="-3"
+           style="letter-spacing:-3px"
+           id="tspan5948">-</tspan><tspan
+           dx="-0.25"
+           style="letter-spacing:-2.75px"
+           id="tspan5950">CORE</tspan></tspan></text>
+  </g>
+</svg>
