@@ -21,15 +21,24 @@ body {
 
 .banner-text {
     vertical-align: middle;
-    font-size: 2rem;
+    font-size: 2em;
     text-decoration: underline;
+}
+
+.banner-subtext {
+    color: #666666;
 }
 
 .banner-text-wrapper {
     @media screen and (min-width: $on-medium) {
         position: relative;
         top: 50%;
-        transform: translateY(calc(50% - (width/2)));
+        transform: translateY(calc(50% - 1.8em));
+    }
+    @media screen and (min-width: $on-large) {
+        position: relative;
+        top: 50%;
+        transform: translateY(calc(50% + 1.8em));
     }
 }
 
@@ -152,7 +161,7 @@ body {
         color: white;
     }
 
-    @media screen and (min-width: $on-medium) {
+    @media screen and (min-width: $on-large) {
         position: static;
         float: right;
         border: none;

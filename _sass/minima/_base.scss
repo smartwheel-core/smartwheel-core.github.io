@@ -230,7 +230,7 @@ pre {
    * Wrapper
    */
 .wrapper {
-    max-width: calc(#{$content-width} - (#{$spacing-unit}));
+    width: calc(min(#{$content-width} - (#{$spacing-unit}), 95vw));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit * .5;
@@ -241,6 +241,7 @@ pre {
         max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
         padding-right: $spacing-unit;
         padding-left: $spacing-unit;
+        //width: calc(#{$content-width} - (#{$spacing-unit}));
     }
 }
 
