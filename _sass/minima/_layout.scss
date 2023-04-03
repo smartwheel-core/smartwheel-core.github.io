@@ -136,7 +136,7 @@ body {
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        display: inline;
+        display: block;
         padding: 5px 10px;
         font-size: 1.7rem;
         vertical-align: middle;
@@ -154,6 +154,10 @@ body {
         margin-left: 20px;
         transition: .3s;
         text-decoration: none;
+
+        @media screen and (min-width: $on-large) {
+             display: inline;
+        }
     }
 
     .page-link:hover {
