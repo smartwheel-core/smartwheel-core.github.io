@@ -19,31 +19,51 @@ layout: base
 
   <h1>Features</h1>
 
-  <h2>Universal keyboards/dials support</h2>
+  <div class="row">
+    <div class="col-3">
+      <p><ion-icon name="options" size="large"></ion-icon></p>
 
-  <p>Smartwheel will work with any encoder - no support from the vendor required</p>
+      <h3>Universal keyboards/dials support</h3>
 
-  <h2>Addons support</h2>
+      <p>Smartwheel will work with any encoder - no support from the vendor required</p>
 
-  <p>There will be a wide range of plugins: from Krita/PS integrations to small quality-of-life imporvements</p>
+    </div>
+    <div class="col-3">
+      <p><ion-icon name="extension-puzzle" size="large"></ion-icon></p>
 
-  <h2>Theming</h2>
+      <h3>Addons support</h3>
 
-  <p>Smartwheel is fully customizable - from color palettes to core features</p>
+      <p>There will be a wide range of plugins: from Krita/PS integrations to small quality-of-life imporvements</p>
+    </div>
+    <div class="col-3">
+      <p><ion-icon name="color-palette" size="large"></ion-icon></p>
 
-  <h2>Fully opensource</h2>
+      <h3>Theming</h3>
 
-  <p>This project will always be free to download and open to the community</p>
+      <p>Smartwheel is fully customizable - from color palettes to core features</p>
+    </div>
+  </div>
 
-  <h1>More info</h1>
+  <h1>Supported platforms</h1>
 
-  <h4>Please visit <a href="https://github.com/enaix/smartwheel-core">the project Github</a> for more information. Don't forget to leave a star if you like it!</h4>
+  <div class="row">
+    <div class="col-3">
+      <p><ion-icon name="logo-windows" size="large"></ion-icon></p>
+    </div>
+    <div class="col-3">
+      <p><ion-icon name="logo-apple" size="large"></ion-icon></p>
+    </div>
+    <div class="col-3">
+      <p><ion-icon name="logo-tux" size="large"></ion-icon></p>
+    </div>
+  </div>
 
-  <h4>Join the discord server: <a href="https://discord.gg/dHxeHx85nA">invite link</a></h4>
+  <h4><ion-icon name="logo-octocat"></ion-icon> Please visit <a href="https://github.com/enaix/smartwheel-core">the project Github</a> for more information. Don't forget to leave a star if you like it!</h4>
+
+  <h4><ion-icon name="logo-discord"></ion-icon> Join the discord server: <a href="https://discord.gg/dHxeHx85nA">invite link</a></h4>
 
   {{ content }}
 
-  <h1>News</h1>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}

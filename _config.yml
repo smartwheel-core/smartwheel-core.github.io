@@ -37,6 +37,7 @@ header_pages:
   - about.markdown
   - downloads.md
   - pad.md
+  - docs.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

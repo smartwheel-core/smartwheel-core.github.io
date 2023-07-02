@@ -16,3 +16,5 @@ Tested releases, guaranteed to work. If you face any issues, it is recommended t
 Newest version built from the latest commit. May contain bugs
 
 ### [Download from Github](https://github.com/enaix/smartwheel-core/releases/tag/nightly)
+
+Note that there are no native Apple silicon builds since there are no such github runners
