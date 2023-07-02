@@ -13,6 +13,12 @@ body {
 
 .row {
     width: 100%;
+    overflow: auto;
+}
+
+.row-small {
+    width: 50%;
+    overflow: auto;
 }
 
 .banner {
@@ -62,6 +68,12 @@ body {
         width: 100%;
         float: none;
     }
+}
+
+.col-sm {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .wrapper {
@@ -441,8 +453,6 @@ body {
         }
     }
 }
-
-
 
 /**
    * Grid helpers
