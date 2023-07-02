@@ -55,6 +55,8 @@ body {
 .col-3 {
     width: 30%;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 
     @media screen and (max-width: $on-medium) {
         width: 100%;
