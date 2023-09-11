@@ -36,7 +36,7 @@ plugins:
 header_pages:
   - about.markdown
   - downloads.md
-  - pad.md
+  - pad.html
   - docs.md
 
 # Exclude from processing.

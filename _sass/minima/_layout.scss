@@ -454,6 +454,28 @@ body {
     }
 }
 
+.max-width
+{
+    width: 100%;
+    margin: 0;
+}
+
+@font-face
+{
+    font-family: "Source Code Pro";
+    src: local("Source Code Pro"), local("SourceCodePro"), local("SourceCodePro-Regular"), url("/assets/ttf/SourceCodePro-Regular.ttf");
+}
+
+.source-text
+{
+    font-family: "Source Code Pro", regular;
+}
+
+.gallery-img:hover
+{
+    
+}
+
 /**
    * Grid helpers
    */
