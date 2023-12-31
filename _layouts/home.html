@@ -1,21 +1,27 @@
 ---
 layout: base
+image:
+    path: /assets/img/banner_dark.jpg
+    width: 1494
+    height: 1029
 ---
-
+<div class="row">
+  <video width="100%" autoplay muted>
+    <source src="/assets/img/render1.webm" type='video/webm; codecs="vp9, opus"'>
+  </video>
+</div>
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   <div class="row banner">
-    <img src="/assets/img/screen1.png" alt="" class="col-5 banner-img">
-    <div class="col-5 banner-text-wrapper">
+    <div>
       <h1 class="banner-text">Powerful keyboard knob/encoder controller with a ton of features</h1>
-      <span class="banner-subtext">here comes a cool promo video, but we haven't finished it in time</span>
     </div>
   </div>
 
-  <br>
+  <br><br>
 
   <h1>Features</h1>
 
@@ -59,6 +65,10 @@ layout: base
       <p><ion-icon name="logo-tux" size="large"></ion-icon></p>
     </div>
   </div>
+
+  <br>
+
+  <img src="/assets/img/screen1.png" alt="" class="col-5">
 
   <br>
 

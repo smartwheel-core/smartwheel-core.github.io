@@ -8,6 +8,7 @@ permalink: /downloads/
 
 Tested releases, guaranteed to work. If you face any issues, it is recommended to try running nightly first.
 
+* [0.0.6 - Introducing the haptics engine](https://github.com/enaix/smartwheel-core/releases/tag/v0.0.6)
 * [0.0.5 - Usability improvements](https://github.com/enaix/smartwheel-core/releases/tag/v0.0.5)
 * [0.0.2 - Initial pre-release](https://github.com/enaix/smartwheel-core/releases/tag/v0.0.2)
 
